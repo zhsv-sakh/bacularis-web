@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-15 02:47\n"
+"PO-Revision-Date: 2022-11-17 02:48\n"
 "Project-Id-Version: bacularis\n"
 "POT-Creation-Date: \n"
 "Last-Translator: Marcin Haba <marcin.haba@bacula.pl>\n"
@@ -381,7 +381,7 @@ msgid "Max. volumes value must be integer."
 msgstr "Макс. значение томов должно быть целым числом."
 
 msgid "Use duration value must be integer."
-msgstr "Значение продолжительности (duration) vol. быть целым числом."
+msgstr "Значение продолжительности (duration) тома должно быть целым числом."
 
 msgid "Label format value must not be empty."
 msgstr "Значение формата метки не должно быть пустым."
@@ -564,7 +564,7 @@ msgid "Run job again"
 msgstr "Запустить задание еще раз"
 
 msgid "Job status"
-msgstr "Статус задания"
+msgstr "Статус"
 
 msgid "Bacula console"
 msgstr "Консоль bacula"
@@ -883,7 +883,7 @@ msgid "Max. Vol. Bytes:"
 msgstr "Макс. размер тома (байт):"
 
 msgid "Max. Vol. Files:"
-msgstr "Max. файлов Vol.:"
+msgstr "Max. файлов тома:"
 
 msgid "Max. Vol. Jobs:"
 msgstr "Макс. заданий Тома:"
@@ -895,7 +895,7 @@ msgid "Storage Daemons."
 msgstr "Демоны хранения."
 
 msgid "Vol. Use Duration (in sec.):"
-msgstr "Vol. Продолжительность использования (в сек.):"
+msgstr "Продолжительность использования тома (в сек.):"
 
 msgid "Yes"
 msgstr "Да"
@@ -1048,10 +1048,10 @@ msgid "Invalid login value. Login may contain a-z A-Z 0-9 characters."
 msgstr "Неверное значение входа. Логин может содержать символы a-z A-Z 0-9."
 
 msgid "Jobs on volume"
-msgstr "Заданий в Vol."
+msgstr "Заданий в томе"
 
 msgid "No jobs on the volume."
-msgstr "Нет заданий в Vol."
+msgstr "Нет заданий в томе."
 
 msgid "Jobs for Client"
 msgstr "Задания для клиента"
@@ -1582,16 +1582,16 @@ msgid "Max. vols"
 msgstr "Макс. Томов"
 
 msgid "Vol. retention"
-msgstr "Хранение Vol."
+msgstr "Хранение тома"
 
 msgid "Max. vol. jobs"
-msgstr "Макс. заданий Тома."
+msgstr "Макс. заданий"
 
 msgid "Max. vol. bytes"
-msgstr "Макс. размер Vol. (байт)"
+msgstr "Макс. размер"
 
 msgid "Max. vol. files"
-msgstr "Max. файлов Vol."
+msgstr "Макс. файлов"
 
 msgid "Recycle"
 msgstr "Перезаписываемый (Recycle)"
@@ -1606,7 +1606,7 @@ msgid "Update pool"
 msgstr "Обновить пул"
 
 msgid "Update all vols in pool"
-msgstr "Обновить все vols в пуле"
+msgstr "Обновить все тома в пуле"
 
 msgid "Pool details"
 msgstr "Детали пула"
@@ -1618,7 +1618,7 @@ msgid "Recycling"
 msgstr "Перезапись"
 
 msgid "Vol. use duration"
-msgstr "Продолжительность использования Vol."
+msgstr "Макс. продолжительность"
 
 msgid "Action on purge"
 msgstr "Действие по очистке (purge)"
@@ -1651,7 +1651,7 @@ msgid "Vol. jobs"
 msgstr "Заданий в Томе"
 
 msgid "Vol. bytes"
-msgstr "Размер Vol."
+msgstr "Размер тома"
 
 msgid "Volume list"
 msgstr "Список томов"
@@ -1663,25 +1663,25 @@ msgid "Recycle count"
 msgstr "Количество рециклов "
 
 msgid "Configure volume"
-msgstr "Настроить Том"
+msgstr "Настроить том"
 
 msgid "InChanger"
 msgstr "В чейнджере"
 
 msgid "Vol. files"
-msgstr "Файлов в Vol."
+msgstr "Файлов в томе"
 
 msgid "Writing"
 msgstr "Запись"
 
 msgid "Vol. status"
-msgstr "Статус Vol."
+msgstr "Статус тома"
 
 msgid "Vol. errors"
-msgstr "Ошибки Vol."
+msgstr "Ошибки тома"
 
 msgid "Vol. mounts"
-msgstr "Vol. монтировать"
+msgstr "Монтировать том"
 
 msgid "Configure job"
 msgstr "Настроить задание"
@@ -1903,13 +1903,13 @@ msgid "Include files to FileSet"
 msgstr "Включить файлы в FileSet"
 
 msgid "Apply file selection"
-msgstr "Применить выбор файла"
+msgstr "Применить"
 
 msgid "Schedule"
 msgstr "Расписание"
 
 msgid "To browse Windows host please type in text field below drive letter as path, for example: C:/"
-msgstr "Для просмотра узла Windows введите текстовое поле под буквой диска в качестве пути, например: C:/"
+msgstr "Для просмотра узла Windows введите в поле путь, например: C:/"
 
 msgid "Add single file/directory"
 msgstr "Добавить один файл/каталог"
@@ -2539,7 +2539,7 @@ msgid "Label date"
 msgstr "Дата метки"
 
 msgid "Vol. blocks"
-msgstr "Блоки Vol."
+msgstr "Блоки тома"
 
 msgid "Vol. abytes"
 msgstr "Том abytes"
@@ -2554,13 +2554,13 @@ msgid "Vol. holes"
 msgstr "Vol. holes"
 
 msgid "Vol. parts"
-msgstr "Части Vol."
+msgstr "Части тома"
 
 msgid "Vol. writes"
-msgstr "Записей Vol."
+msgstr "Записей тома"
 
 msgid "Vol. capacity bytes"
-msgstr "Vol. байты емкости"
+msgstr "Емкость тома байт"
 
 msgid "Storage"
 msgstr "Хранилище"
@@ -2569,10 +2569,10 @@ msgid "Media addressing"
 msgstr "Адресация медиа"
 
 msgid "Vol. read time"
-msgstr "Vol. времени чтения"
+msgstr "Время чтения тома"
 
 msgid "Vol. write time"
-msgstr "Vol. время записи"
+msgstr "Время записи тома"
 
 msgid "End file"
 msgstr "Конечный файл"
@@ -2584,7 +2584,7 @@ msgid "Initial write"
 msgstr "Начальная запись"
 
 msgid "Vol. type"
-msgstr "Тип Vol."
+msgstr "Тип тома"
 
 msgid "Vol. cloud parts"
 msgstr "Том часть облака"
@@ -3463,7 +3463,7 @@ msgid "New backup job"
 msgstr "Мастер нового задания"
 
 msgid "New copy job"
-msgstr "Новая копия задания"
+msgstr "Мастер копирования задания"
 
 msgid "Step 1 - basic information about new job"
 msgstr "Шаг 1 - базовая информация о новом задании"
@@ -3754,7 +3754,7 @@ msgid "Migrate by SQL query"
 msgstr "Миграция по SQL-запросу"
 
 msgid "New migrate job wizard"
-msgstr "Новый мастер миграции задания"
+msgstr "Мастер миграции задания"
 
 msgid "Step 2 - what you want to migrate"
 msgstr "Шаг 2 - что вы хотите мигрировать"
@@ -3961,7 +3961,7 @@ msgid "Job log"
 msgstr "Журнал задания"
 
 msgid "New verify job"
-msgstr "Новая проверка задания"
+msgstr "Мастер проверки задания"
 
 msgid "New verify job wizard"
 msgstr "Мастер проверки задания"
@@ -4183,7 +4183,7 @@ msgid "Go to resource"
 msgstr "Перейти к ресурсу"
 
 msgid "Pool: %pool, Vol. status: %volstatus"
-msgstr "Пул: %pool, том статус: %volstatus"
+msgstr "Пул: %pool, статус тома: %volstatus"
 
 msgid "Pool volume status summary"
 msgstr "Статус пула и тома суммарно"

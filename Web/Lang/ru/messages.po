@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-17 02:48\n"
+"PO-Revision-Date: 2022-11-23 21:21\n"
 "Project-Id-Version: bacularis\n"
 "POT-Creation-Date: \n"
 "Last-Translator: Marcin Haba <marcin.haba@bacula.pl>\n"
@@ -1042,7 +1042,7 @@ msgid "Add new user"
 msgstr "Добавить нового пользователя"
 
 msgid "Username:"
-msgstr "Имя пользователя:"
+msgstr "Логин:"
 
 msgid "Invalid login value. Login may contain a-z A-Z 0-9 characters."
 msgstr "Неверное значение входа. Логин может содержать символы a-z A-Z 0-9."
